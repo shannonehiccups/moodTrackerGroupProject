@@ -11,6 +11,6 @@ function MyMood({userEntry}){
     </div> 
   );
   } 
-export default MyMood;
+export default MyMood; 
 
 // from Kathy

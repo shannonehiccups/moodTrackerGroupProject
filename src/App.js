@@ -1,13 +1,16 @@
 
 import './App.css';
+
 import MoodRange from './moodrange';
-import MyMood from "./MyMood";
+import MyMood from './myMood';
 import { useState, useEffect } from 'react';
 
 function App() {
   return (
     <div className="App">
-     <MoodRange />
+
+      <MoodRange />
+    
     </div>
   );
 }
