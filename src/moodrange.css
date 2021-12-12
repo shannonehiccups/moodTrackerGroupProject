@@ -1,7 +1,3 @@
-.form-range {
-    transform: rotate(270deg);
-    width: 400px; 
-}
 
 .moodFrame {
     background-color: rgba(195, 216, 235, .95);
@@ -10,23 +6,39 @@
     margin: auto; 
 }
 
-.moodsAndSlider{
-    background-color: cadetblue;
-    height:600px;
-    display: flex;
-}
-
 
 .form-container {
-    background-color: aqua;
-    flex: 50%;
-    align-content: flex-end;
-    justify-items: end;
+    
 }
 
 .moodList {
-    background-color: blueviolet;
-    flex: 50%;
-    align-content: flex-start;
-    justify-items: start;
+ 
+}
+
+.mood-0 {
+
+}
+
+.mood-10 {
+
+}
+
+.mood-20 {
+
+}
+
+.mood-30 {
+
+}
+
+.mood-40 {
+
+}
+
+.mood-50 {
+
+}
+
+.active {
+    font-weight:bold;
 }

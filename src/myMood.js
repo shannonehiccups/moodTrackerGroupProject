@@ -1,16 +1,33 @@
-function MyMood({userEntry}){
-      
-  return ( 
-   
-   <div> 
-{/* userEntry needs to go in this sentence not the button */}
-    {/* <h1>Your choice indicates that you feel {moods}</h1> */}
-{/* Used button as test/placeholder */}
-{/* I think that the slider will replace the button in determining the num */}
-    <button onClick ={userEntry}>My Mood</button>
-    </div> 
-  );
+import React from 'react';
+//import MoodOptimistic from './moodOptimistic';
+
+class MyMood extends React.Component{
+
+    constructor(props) {
+        super(props);
+        this.mood = -1;
+        //this.RenderMood = this.RenderMood.bind(this);
+    }
+
+    /*
+      RenderMood = () => 
+      {
+            if( this.props.moodValue == 0 )
+                return <MoodOptimistic />
+            else if( this.props.moodValue == 1 )
+                return </MoodHappy />
+            else
+                return </NoMoodPicked />
+      }
+    */
+
+      render()
+      {
+          return ( 
+            <div> 
+                <span>{this.props.name} your mood was {this.props.moods[this.props.moodValue]}.</span>
+            </div>
+        );
+      }
   } 
 export default MyMood; 
-
-// from Kathy

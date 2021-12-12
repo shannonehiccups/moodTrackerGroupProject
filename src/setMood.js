@@ -33,4 +33,4 @@ function SetMood() {
   );
 }
 
-export default App;
+export default SetMood;
